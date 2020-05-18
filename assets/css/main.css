@@ -1095,8 +1095,9 @@ body {
   }
 }
 .contact--lockup .modal {
-  padding: 45px 45px;
+  padding: 25px 25px;
   text-align: center;
+  background: #00000057;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.75);
 }
 .contact--lockup .modal--information p,
@@ -1126,9 +1127,12 @@ body {
   background-color: #1b1919;
 }
 .contact--lockup .modal--options li:nth-child(3) {
+  background-color: #ff0000;
+  text-transform: uppercase;
+}
+.contact--lockup .modal--options li:nth-child(4) {
   margin-bottom: 0;
   background-color: #0f33ff;
-  text-transform: uppercase;
 }
 .contact--lockup .modal--options a {
   display: block;
